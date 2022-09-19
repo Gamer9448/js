@@ -17,6 +17,50 @@ document.write( age);
 let x = 45; // Тип данных number
 let num = 9007199254740991; // Тип данных BigInt предназначен для представление очень больших чисел
 
-let false = false;
-let true = "true";
+// let false = false;
+// let true = true;  // boolean тип 
+
+id = 45;
+document.write(typeof id);   // typeof показывает тип переменной
+
+
 </script>
+<!-- 2 День изучение jS-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Моя первая веб страница</h2>
+<p>Мой первый параграф.</p>
+
+<button type="button" onclick="document.write(5 + 6)">Попробовать</button> <!-- Взаимодействие между html и js-->
+
+</body>
+</html>
+
+<script>
+const PI = 3.14159265359; // переменная const не может быть переназначена
+
+var car = {type:"Фиат", model:"500", color:"белый"};м // объекты в js
+
+</script>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Нажмите кнопку, чтобы отобразить дату.</p>
+
+<button onclick="displayDate()">Время сейчас?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html>
+<!-- Это я изучал событие в Js -->
